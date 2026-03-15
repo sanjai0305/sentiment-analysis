@@ -25,7 +25,7 @@ env/
 ENV/
 
 # Machine Learning Models & Large Files (use Git LFS or external storage)
-*.pkl
+backend/models/random_forest.pkl
 *.h5
 *.hdf5
 *.model
@@ -34,7 +34,6 @@ ENV/
 *.pth
 
 # Large Data Files
-*.csv
 *.tsv
 *.parquet
 
