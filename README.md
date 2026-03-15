@@ -1,4 +1,4 @@
-# 🧠 Binary Brains: Advanced Sentiment & Emotion Intelligence Platform
+# 🧠 Advanced Sentiment & Emotion Intelligence Platform
 
 An enterprise-grade, real-time Social Listening and Sentiment Analysis platform. This system ingests text, audio, and live data streams from various sources (Reddit, YouTube, Amazon), and processes them through an ensemble of Classical Machine Learning algorithms and cutting-edge Deep Learning Transformer models.
 
