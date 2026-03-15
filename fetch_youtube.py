@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Set up the YouTube Data API v3
-API_KEY = "AIzaSyAnEKoDiVUfqv3tBdiHmEFkDo4YCwSGrrU"
+API_KEY = os.getenv("YOUTUBE_API_KEY", "AIzaSyAnEKoDiVUfqv3tBdiHmEFkDo4YCwSGrrU") # Failsafe default if .env is missing
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def search_youtube_and_get_comments(query: str, limit: int = 50):

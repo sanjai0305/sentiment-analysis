@@ -13,3 +13,4 @@ uvicorn
 pydantic
 python-multipart
 openai-whisper
+python-dotenv
