@@ -21,7 +21,7 @@ import CompareTab from './CompareTab';
 import HistoryTab from './HistoryTab';
 import TrendingTab from './TrendingTab';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 const COLORS = {
   Positive: '#10b981',

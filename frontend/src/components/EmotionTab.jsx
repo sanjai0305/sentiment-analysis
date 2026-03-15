@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Loader2, AlertCircle, Zap, Brain, Sparkles } from 'lucide-react';
 import axios from 'axios';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 const EMOTIONS = [
   { id: 'joy',      emoji: '😄', label: 'Joy',      color: '#f59e0b', bgColor: 'rgba(245,158,11,0.12)',  group: 'positive' },

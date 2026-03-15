@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { Loader2, AlertCircle, Mic, Square, Play, Activity, Sparkles } from 'lucide-react';
 import axios from 'axios';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 const SENTIMENT_COLORS = {
   Positive: '#10b981',

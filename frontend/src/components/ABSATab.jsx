@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Loader2, AlertCircle, Cpu, TrendingUp, TrendingDown, Minus, Layers } from 'lucide-react';
 import axios from 'axios';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 const SENTIMENT_COLORS = {
   Positive:   { color: '#10b981', bg: 'rgba(16,185,129,0.12)', icon: TrendingUp   },

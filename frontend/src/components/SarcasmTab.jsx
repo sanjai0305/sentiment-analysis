@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Loader2, AlertCircle, Frown, ArrowRight, Zap } from 'lucide-react';
 import axios from 'axios';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 const EXAMPLE_TEXTS = [
   "Wow, what a GREAT phone, the battery died in exactly 2 hours.",
