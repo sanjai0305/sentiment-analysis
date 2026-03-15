@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+nltk
+joblib
+matplotlib
+plotly
+requests
+transformers
+torch
+fastapi
+uvicorn
+pydantic
+python-multipart
+openai-whisper
